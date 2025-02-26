@@ -8,7 +8,7 @@ const Navbar = ({ setCategory }) => {
   return (
     <nav className="bg-blue-600 p-4 text-white shadow-md fixed top-0 w-full z-10">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-bold">GNews</h1>
+        <h1 className="text-2xl font-bold">News 24/7</h1>
 
         {/* Mobile Menu Button */}
         <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
